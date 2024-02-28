@@ -17,12 +17,12 @@
 	position: web developer"""
 
 
-# def pd(**kwargs):
-#     for i in kwargs:
-#         print(f'{i}: {kwargs[i]}')
-#
-#
-# pd(name='John', last_name='Smith', age=35, position='web developer')
+def pd(**kwargs):
+    for i in kwargs:
+        print(f'{i}: {kwargs[i]}')
+
+
+pd(name='John', last_name='Smith', age=35, position='web developer')
 
 
 """4.3. Используя лямбда-выражение, из списка my_list = [20, -3, 15, 2, -1, -21] создайте новый список, 
