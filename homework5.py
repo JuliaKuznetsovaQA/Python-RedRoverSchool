@@ -57,7 +57,7 @@ class Fish(Animal):
     def set_cost(self, new_cost):
         self.__cost = new_cost
 
-print(type(a))
+
 pushok = Cat('Pushok', 12, 'black', 'trivial', 8000)
 print(pushok.move())
 print(pushok.__dict__)
